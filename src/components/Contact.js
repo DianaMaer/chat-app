@@ -12,8 +12,8 @@ function Contact(){
             <div>
                 <h4 className="name">Anne Random</h4>
                 <div className="status" >
-                    {userStatus ? <p className="status-text">online</p> : <p className="status-text">offline</p>}
                     {userStatus ? <div className="status-online"></div> : <div className="status-offline"></div>}
+                    {userStatus ? <p className="status-text">online</p> : <p className="status-text">offline</p>}
                 </div>
             </div>
         </div>
